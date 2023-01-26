@@ -6,4 +6,5 @@ public class Greetings {
             System.out.println("Sup");
         }
 
+
 }
