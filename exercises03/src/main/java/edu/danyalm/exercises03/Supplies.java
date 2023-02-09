@@ -34,7 +34,7 @@ public class Supplies {
     public boolean haveFood()
     {
         final double EPS = 1e-10;
-        Math.abs(totalFood) <= EPS
+        Math.abs(totalFood) <= EPS;
         return(totalFood != 0);
     }
 
