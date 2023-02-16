@@ -35,22 +35,26 @@ public class Player {
         int BMI = (int)k;
         return BMI;
     }
+
     public String getNameString() {
         return (getLastName() + ", " + getFirstName());
     }
+
     public String getHeightString() {
         int feetheight = getHeight() / 12;
         int inchheight = getHeight() % 12;
         return feetheight + "'-" + inchheight + "\"";
     }
+
     public String getWeightString() {
         return getWeight() + " lbs.";
     }
     public String toString() {
+
         String everything = ("NAME: " + getNameString() + "\n"
-                          + "WEIGHT: " + getWeightString() + "\n"
-                          + "HEIGHT: " + getHeightString() + "\n"
-                          + "BMI: " + calculateBMI() + "\n");
+                            + "WEIGHT: " + getWeightString() + "\n"
+                            + "HEIGHT: " + getHeightString() + "\n"
+                            + "BMI: " + calculateBMI() + "\n");
         return everything;
     }
 }
