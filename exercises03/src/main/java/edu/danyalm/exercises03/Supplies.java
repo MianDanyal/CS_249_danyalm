@@ -34,8 +34,8 @@ public class Supplies {
     public boolean haveFood()
     {
         final double EPS = 1e-10;
-        Math.abs(totalFood) <= EPS;
-        return(totalFood != 0);
+        return(Math.abs(totalFood) > EPS);
+        //return(totalFood != 0);
     }
 
     public String toString()

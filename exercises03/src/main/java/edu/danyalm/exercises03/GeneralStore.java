@@ -6,7 +6,7 @@ public class GeneralStore {
 
     public void printWelcome() {}
     public void printOptions() {
-        System.out.println("** INVENTORY **")
+        System.out.println("** INVENTORY **");
         System.out.println("* Food");
 
         System.out.println("What do you want to buy?");
