@@ -24,3 +24,4 @@ public class LetterPrinter {
         System.out.println(header);
     }
 }
+
