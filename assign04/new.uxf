@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>160</y>
+      <w>330</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>CharBoard
+--
+- rowCnt: int
+- colCnt: int
+- fillChar: char
+- board: char[][]
+--
++ CharBoard(rowCnt: int, colCnt: int, fillChar: char)
++ clear(): void
++ getRowCnt(): int
++ getColCnt(): int
++ isValidPosition(row: int, col: int): boolean
++ getPos(row: int, col: int): char
++ setPos(row: int, col: int, c: char) : boolean
++ toString(): String
++ getMapString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
