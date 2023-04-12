@@ -1,17 +1,17 @@
-package edu.realemj.exercises12;
+package edu.realemj.exercises14;
 
-import edu.realemj.math.*;
-public class Shape {
+import edu.realemj.math.Point2D;
+public abstract class Shape {
     private boolean filled;
     private Point2D center = new Point2D(0,0);
 
-    public Shape() {}
+    protected Shape() {}
 
-    public Shape(Point2D center) {
+    protected Shape(Point2D center) {
         this.center = new Point2D(center);
     }
 
-    public Shape(Point2D center, boolean filled) {
+    protected Shape(Point2D center, boolean filled) {
         this(center);
         this.filled = filled;
     }
@@ -47,4 +47,7 @@ public class Shape {
 
         return false;
     }
+
+    public abstract double getArea();
+    public abstract double getPerimeter();
 }
