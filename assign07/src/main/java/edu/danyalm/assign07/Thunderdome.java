@@ -1,7 +1,7 @@
-package edu.realemj.assign07;
+package edu.danyalm.assign07;
 
-import edu.realemj.assign04.CharBoard;
-import edu.realemj.assign06.*;
+import edu.danyalm.assign04.CharBoard;
+import edu.danyalm.assign06.*;
 import java.util.*;
 public class Thunderdome {
     public static void main(String [] args) {

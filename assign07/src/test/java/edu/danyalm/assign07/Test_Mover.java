@@ -1,7 +1,7 @@
-package edu.realemj.assign07;
+package edu.danyalm.assign07;
 
-import edu.realemj.assign06.Creature;
-import edu.realemj.assign06.Rat;
+import edu.danyalm.assign06.Creature;
+import edu.danyalm.assign06.Rat;
 import org.testng.annotations.Test;
 
 public class Test_Mover {
